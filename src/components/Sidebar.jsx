@@ -7,6 +7,7 @@ import NightlightIcon from "@mui/icons-material/Nightlight";
 import SearchIcon from '@mui/icons-material/Search';
 import { IconButton } from "@mui/material";
 import ConversationItem from "./ConversationItem";
+import './MyStyle.css'
 
 function Sidebar() {
    const [conversations,setConersation] = useState([
